@@ -1,0 +1,27 @@
+{
+    "name": "auth",
+    "version": "1.0.0",
+    "description": "auth passport",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "auth",
+        "passport"
+    ],
+    "author": "name",
+    "license": "ISC",
+    "devDependencies": {
+        "body-parser": "^1.18.3",
+        "cookie-parser": "^1.4.3",
+        "cookie-session": "^2.0.0-beta.3",
+        "express": "^4.16.4",
+        "mongoose": "^5.3.13",
+        "passport": "^0.4.0",
+        "passport-local": "^1.0.0"
+    },
+    "dependencies": {
+        "socket.io": "^2.1.1"
+    }
+}
